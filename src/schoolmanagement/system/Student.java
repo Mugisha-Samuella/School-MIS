@@ -28,4 +28,13 @@ public class Student {
           this.name = name;
           this.grade = grade;
     }
+
+    /**
+     *Update the student's grade
+     * @param grade new grade of the student
+     */
+
+    public void setGrade(int grade){
+        this.grade = grade;
+    }
 }
