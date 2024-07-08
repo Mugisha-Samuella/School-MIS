@@ -23,7 +23,7 @@ public class Student {
      * @param grade grade of the student.
      */
 
-    public student(int id, String name, int grade){
+    public void student(int id, String name, int grade){
           this.id = id;
           this.name = name;
           this.grade = grade;
