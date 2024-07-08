@@ -27,6 +27,8 @@ public class Student {
           this.id = id;
           this.name = name;
           this.grade = grade;
+          this.feesPaid = 0;
+          this.feesTotal = 0;
     }
 
     /**
@@ -36,5 +38,14 @@ public class Student {
 
     public void setGrade(int grade){
         this.grade = grade;
+    }
+
+
+    /**
+     * Add fees to the fees paid
+     * @param fees the fees paid by the student
+     */
+    public void setFeesPaid(int fees){
+        feesPaid += fees;
     }
 }
