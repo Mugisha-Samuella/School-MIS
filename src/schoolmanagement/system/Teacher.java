@@ -29,6 +29,30 @@ public class Teacher {
         this.salary = salary;
     }
 
+    /**
+     *
+     * @return teacher's id
+     */
+    public int getId(){
+        return id;
+    }
+
+    /**
+     *
+     * @return teacher's name
+     */
+    public String name(){
+        return name;
+    }
+
+    /**
+     *
+     * @return teacher's salary
+     */
+    public int Salary(){
+        return salary;
+    }
+
 
 
 }
