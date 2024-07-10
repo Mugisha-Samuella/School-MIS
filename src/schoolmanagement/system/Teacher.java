@@ -53,6 +53,14 @@ public class Teacher {
         return salary;
     }
 
+    /**
+     *To update the teacher's salary
+     * @param salary set the teacher's salary
+     */
+    public void setSalary(int salary){
+        this.salary = salary;
+    }
+
 
 
 }
